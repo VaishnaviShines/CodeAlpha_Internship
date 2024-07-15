@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: fuchsia;
+    display: flex;
+    justify-content: center;
+    align-items: centre;
+    height: 100vh;
+    margin: 0;
+}
+
+#app {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid blanchedalmond;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: palevioletred;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: grey;
+}

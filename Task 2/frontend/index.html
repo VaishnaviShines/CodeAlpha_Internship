@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Social Media</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Welcome to Simple Social Media</h1>
+        <div id="register">
+            <h2>Register</h2>
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button onclick="register()">Register</button>
+        </div>
+        <div id="login" style="display: none;">
+            <h2>Login</h2>
+            <input type="text" id="loginUsername" placeholder="Username">
+            <input type="password" id="loginPassword" placeholder="Password">
+            <button onclick="login()">Login</button>
+        </div>
+        <div id="postStatus" style="display: none;">
+            <h2>Post a Status</h2>
+            <textarea id="status" placeholder="What's on your mind?"></textarea>
+            <button onclick="postStatus()">Post</button>
+            <h2>Status Feed</h2>
+            <div id="feed"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
